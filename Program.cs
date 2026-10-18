@@ -27,15 +27,16 @@ using System.Reflection.Metadata;
 //Console.Write("Liczba złotych");
 //string złotostring = Console.ReadLine()!;
 //int złotoInt = int.Parse(złotostring);
-string Bo = Console.ReadLine()!;
-string kraina = Console.ReadLine()!;
-int wyprawa = int.Parse(Console.ReadLine()!);
-int 
- = int.Parse(Console.ReadLine()!);
-int exp = int.Parse(Console.ReadLine()!);
+//string Bo = Console.ReadLine()!;
+//string kraina = Console.ReadLine()!;
+//int wyprawa = int.Parse(Console.ReadLine()!);
+//int 
+// = int.Parse(Console.ReadLine()!);
+//int exp = int.Parse(Console.ReadLine()!);
 
-float srexp = (float)exp/wyprawa;
-Console.WriteLine("srExp: "+srexp);
+//float srexp = (float)exp/wyprawa;
+//Console.WriteLine("srExp: "+srexp);
+
 
 
 
