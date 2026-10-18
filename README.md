@@ -3,6 +3,16 @@
 to jest całkowicie normalny plik README
 
 ## URUCHOMIENIE
-\'\'\' BASH
+
+''' BASH
 dotnet run
-\'\'\'
+'''
+
+
+
+
+
+\##Kontakt
+
+Autor: Jakub Socha
+
