@@ -73,39 +73,52 @@ using System.Reflection.Metadata;
 //int NumerTreningu = 2;
 //NumerTreningu++;
 //Console.WriteLine($"Numer Treningu {NumerTreningu}");
-Console.WriteLine("Podaj racje żywnościową");
-int racja = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Liczba Członków drużyny");
-int druzyna = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Liczba Dni wyprawy");
-int dni = int.Parse(Console.WriteLine()!);
+//Console.WriteLine("Podaj racje żywnościową");
+//int racja = int.Parse(Console.ReadLine()!);
+//Console.WriteLine("Liczba Członków drużyny");
+//int druzyna = int.Parse(Console.ReadLine()!);
+//Console.WriteLine("Liczba Dni wyprawy");
+//int dni = int.Parse(Console.WriteLine()!);
 
-int 1 = racja / druzyna;
-int 2 = racja % druzyna; 
-double 3 = dni / druzyna;
-double 4 = (dni / druzyna))
-
-
+//int 1 = racja / druzyna;
+//int 2 = racja % druzyna; 
+//double 3 = dni / druzyna;
+//double 4 = (dni / druzyna))
 
 
+//Console.WriteLine("Podaj liczbe");
+//int liczba = int.Parse(Console.ReadLine()!);
 
+//if (liczba % 2 == 0)
+//{
 
+//Console.WriteLine("liczba jest parzysta");
 
+//}
+//else
+//{
+//Console.WriteLine("liczba jest nie parzysta");
+//}
 
+Console.Write("Wybierz kierunek: ");
+string kierunek = Console.ReadLine()!;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+switch (kierunek)
+{
+    case "północ":
+        Console.WriteLine("Idziesz w strone gór");
+        break;
+    case "południe":
+        Console.WriteLine("Wyruszam w strone pustyni");
+        break;
+    case "wschód":
+        Console.WriteLine("Wyruszam w stronę lasu");
+        break;
+    case "zachód":
+        Console.WriteLine("Wyruszam w strone morza");
+        break;
+    default:
+        Console.WriteLine("Nieznay Kierunek");
+        break;
+} 
 
