@@ -5,7 +5,8 @@ on:
 
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: .\Users\s38640\projekt1.csproj
+  PROJECT_PATH: ./projekt1.csproj
+
 
 jobs:
   build:
